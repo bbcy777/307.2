@@ -1,0 +1,58 @@
+body {
+    background-color: lightslategray;
+    color: black;
+    font-size: 1.1em;
+}
+h1 {
+    color: coral;
+}
+#intro {
+    font-size: 1.3em;
+}
+.colorful {
+    color: orange;
+}
+
+section { 
+    border: 5px solid black; 
+    padding: 10px; 
+    background-color:#dbfffe; 
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  
+  td, th {
+    border: 1px solid rebeccapurple;
+  }
+  table {
+    margin-top: 30px;
+    border: 5px solid black;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    background-color: white;
+  }
+  td:hover {
+    background-color: lightcoral;
+    color: white;
+  }
+  table>thead {
+    text-align: right;
+  }
